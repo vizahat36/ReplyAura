@@ -47,10 +47,14 @@
 
 ## 🧩 Chrome Extension
 
-ReplyAura includes a Gmail-compatible Chrome extension that detects compose windows, injects an **"AI Reply"** button, and fetches generated replies from the backend.
+ReplyAura includes a lightweight **Gmail-compatible Chrome extension** that:
 
-📦 **Docker Image:** `vizahat/replyaura`  
-🔗 **Backend Live API:** [https://replyaura-bd.onrender.com](https://replyaura-bd.onrender.com)
+- Detects Gmail compose windows in real time  
+- Injects a custom **“AI Reply”** button into the Gmail toolbar  
+- Fetches AI-generated replies from the deployed backend  
+- Automatically fills in the reply textbox with the generated content
+
+This feature makes it possible to draft smart replies without leaving your inbox — perfect for professionals who live in Gmail.
 
 ---
 
@@ -83,7 +87,7 @@ ReplyAura includes a Gmail-compatible Chrome extension that detects compose wind
 
 ## 🎬 Demo Video
 
-> 📹 A short walkthrough of the full flow: composing a Gmail reply using the extension, and real-time AI generation.
+>📹 Walkthrough of generating AI replies via both the **web UI** and **Chrome extension**, showing Gmail integration in action.
 
 **🔗 Watch here:** [Click to View on Google Drive](https://drive.google.com/file/d/1yuERZbOgMTFPovcFLV0dNSHgv-jaGqo7/view?usp=sharing)
 
