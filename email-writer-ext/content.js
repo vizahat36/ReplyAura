@@ -63,7 +63,7 @@ function injectButton() {
             button.disabled = true;
 
             const emailContent = getEmailContent();
-            const response = await fetch('http://localhost:8080/api/email/generate', {
+            const response = await fetch('https://replyaura-bd.onrender.com/api/email/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -103,7 +103,8 @@ const observer = new MutationObserver((mutations) => {
     for(const mutation of mutations) {
         const addedNodes = Array.from(mutation.addedNodes);
         const hasComposeElements = addedNodes.some(node =>
-            node.nodeType === Node.ELEMENT_NODE && 
+            // node.nodeType === Node.ELEMENT_NODE && 
+            node.nodeType === 1 &&
             (node.matches('.aDh, .btC, [role="dialog"]') || node.querySelector('.aDh, .btC, [role="dialog"]'))
         );
 
