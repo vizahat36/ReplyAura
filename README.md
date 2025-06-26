@@ -76,7 +76,10 @@ ReplyAura includes a Gmail-compatible Chrome extension that detects compose wind
 
 | AI Generator UI | Dark Mode | Reply Output |
 |-----------------|-----------|--------------|
-| ![AI Generator](https://i.imgur.com/y5ObdVG.png) | ![Dark Mode](https://i.imgur.com/t71kq0k.png) | ![Reply Output](https://i.imgur.com/cLPr3OX.png) |
+| ![AI Generator](![aiip](https://github.com/user-attachments/assets/452c0365-8434-43be-bfd9-a3798834b2d6)
+) | ![Dark Mode](![dm](https://github.com/user-attachments/assets/c0cf3977-bd42-48e8-93c3-508ac5583740)
+) | ![Reply Output](![reply](https://github.com/user-attachments/assets/0e926911-8a07-4721-83f1-35d660523c44)
+) |
 
 ---
 
@@ -84,7 +87,8 @@ ReplyAura includes a Gmail-compatible Chrome extension that detects compose wind
 
 > 📹 A short walkthrough of the full flow: composing a Gmail reply using the extension, and real-time AI generation.
 
-**🔗 Watch here:** *[Demo Video Link – Coming Soon]*
+**🔗 Watch here:** [Click to View on Google Drive](https://drive.google.com/file/d/1yuERZbOgMTFPovcFLV0dNSHgv-jaGqo7/view?usp=sharing)
+
 
 ---
 
