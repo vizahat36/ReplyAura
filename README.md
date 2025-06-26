@@ -1,27 +1,29 @@
 # 🚀 ReplyAura – AI-Powered Email Reply Assistant
 
 🌐 **Live App:** [https://replyaura.vercel.app](https://replyaura.vercel.app)  
-
+📦 **Backend API:** [https://replyaura-bd.onrender.com](https://replyaura-bd.onrender.com)  
+🐳 **Docker Image:** [`vizahat/replyaura`](https://hub.docker.com/r/vizahat/replyaura)
 
 ---
 
 ## 🧠 About ReplyAura
 
-**ReplyAura** is a modern, AI-driven email reply assistant designed to automatically generate context-aware responses to emails with customizable tone settings. With a beautifully animated UI and a powerful backend, it streamlines professional communication across platforms.
+**ReplyAura** is an AI-powered email assistant that generates smart, context-aware replies to emails in a single click. With tone selection, modern UI, and Gmail extension support, ReplyAura streamlines your professional communication workflow.
 
-This project integrates advanced AI capabilities with seamless user experience, packaged both as a web app and a Chrome extension.
+✨ Built with a React frontend and a Spring Boot backend, this project delivers seamless interaction, responsive design, and real-time AI-powered replies.
 
 ---
 
 ## ✨ Features
 
 - 🔥 **AI Email Reply Generator** powered by Spring AI (LLM support)
-- 🎨 **Vite + React.js frontend** with Material UI and animated glassmorphism
-- 🌗 **Dark/Light mode toggle** for personalized UI preferences
+- 🎨 **Modern UI** with Material UI and animated glassmorphism
+- 🌗 **Dark/Light mode toggle** for personalized experience
 - 💬 **Tone customization** – Friendly, Casual, or Professional
-- 🔌 **Chrome Extension** to generate replies directly from your inbox
-- 📦 **Deployed backend** on Render using Docker containerization
-- 📲 **REST API integration** between frontend and backend
+- 🧩 **Chrome Extension** – AI reply directly from Gmail
+- 🐳 **Dockerized Backend** – Portable and scalable
+- 🚀 **Deployment** via Vercel (Frontend) & Render (Backend)
+- 🔌 **REST API integration** between frontend and backend
 
 ---
 
@@ -31,26 +33,30 @@ This project integrates advanced AI capabilities with seamless user experience, 
 - [React.js](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [Material UI](https://mui.com/)
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [Vercel](https://vercel.com/) for deployment
+- [Framer Motion](https://www.framer.com/motion/) – smooth animations
+- [Vercel](https://vercel.com/) – frontend deployment
 
 ### ⚙️ Backend:
 - [Java](https://www.oracle.com/java/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring AI](https://docs.spring.io/spring-ai)
-- [Docker](https://www.docker.com/) containerized
-- [Render](https://render.com/) for backend hosting
+- [Docker](https://www.docker.com/)
+- [Render](https://render.com/) – backend hosting
 
 ---
 
-## 🧩 Chrome Extension 
+## 🧩 Chrome Extension
 
-A lightweight browser extension is also included that connects to the deployed backend to allow one-click email reply generation directly within Gmail.
+ReplyAura includes a Gmail-compatible Chrome extension that detects compose windows, injects an **"AI Reply"** button, and fetches generated replies from the backend.
+
+📦 **Docker Image:** `vizahat/replyaura`  
+🔗 **Backend Live API:** [https://replyaura-bd.onrender.com](https://replyaura-bd.onrender.com)
 
 ---
 
+## 📸 Screenshots
 
-### 🧩 Extension Functionality Preview 📸 Screenshots
+### 🧩 Extension Functionality
 
 | Home View | Input Prompt | Output Response |
 |-----------|--------------|------------------|
@@ -58,7 +64,7 @@ A lightweight browser extension is also included that connects to the deployed b
 
 ---
 
-### 💬 Email Integration & Extension Preview 📸 Screenshots
+### 💬 Email Integration & Extension Preview
 
 | Gmail Compose Detection | Extension UI Preview |
 |--------------------------|----------------------|
@@ -66,16 +72,21 @@ A lightweight browser extension is also included that connects to the deployed b
 
 ---
 
+### 🌑 UI Modes & Output Preview
+
+| AI Generator UI | Dark Mode | Reply Output |
+|-----------------|-----------|--------------|
+| ![AI Generator](https://i.imgur.com/y5ObdVG.png) | ![Dark Mode](https://i.imgur.com/t71kq0k.png) | ![Reply Output](https://i.imgur.com/cLPr3OX.png) |
+
+---
+
 ## 🎬 Demo Video
 
-> 📹 A short video showing the extension in action — loading Gmail, detecting the compose window, injecting the AI Reply button, and generating a response.
+> 📹 A short walkthrough of the full flow: composing a Gmail reply using the extension, and real-time AI generation.
 
 **🔗 Watch here:** *[Demo Video Link – Coming Soon]*
 
 ---
-
-
-
 
 ## 📎 License
 
