@@ -1,7 +1,7 @@
 # 🚀 ReplyAura – AI-Powered Email Reply Assistant
 
 🌐 **Live App:** [https://replyaura.vercel.app](https://replyaura.vercel.app)  
-📦 **GitHub Repo:** [github.com/vizahat36/ReplyAura-AI-Email-Reply-Assistant](https://github.com/vizahat36/ReplyAura-AI-Email-Reply-Assistant)
+
 
 ---
 
