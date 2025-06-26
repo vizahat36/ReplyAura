@@ -76,10 +76,8 @@ ReplyAura includes a Gmail-compatible Chrome extension that detects compose wind
 
 | AI Generator UI | Dark Mode | Reply Output |
 |-----------------|-----------|--------------|
-| ![AI Generator](![aiip](https://github.com/user-attachments/assets/452c0365-8434-43be-bfd9-a3798834b2d6)
-) | ![Dark Mode](![dm](https://github.com/user-attachments/assets/c0cf3977-bd42-48e8-93c3-508ac5583740)
-) | ![Reply Output](![reply](https://github.com/user-attachments/assets/0e926911-8a07-4721-83f1-35d660523c44)
-) |
+| ![aiip](https://github.com/user-attachments/assets/452c0365-8434-43be-bfd9-a3798834b2d6) | ![dm](https://github.com/user-attachments/assets/c0cf3977-bd42-48e8-93c3-508ac5583740) | ![reply](https://github.com/user-attachments/assets/0e926911-8a07-4721-83f1-35d660523c44) |
+
 
 ---
 
