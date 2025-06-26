@@ -1,100 +1,66 @@
-ReplyAura: AI-Powered Email Reply Generator
-markdown
-Copy
-Edit
-# 💌 ReplyAura
+# 🚀 ReplyAura – AI-Powered Email Reply Assistant
 
-ReplyAura is an AI-powered email assistant that helps you generate professional, friendly, or casual replies to emails with just one click. It combines a beautifully animated React frontend with a powerful Spring Boot backend using Spring AI.
+🌐 **Live App:** [https://replyaura.vercel.app](https://replyaura.vercel.app)  
+📦 **GitHub Repo:** [github.com/vizahat36/ReplyAura-AI-Email-Reply-Assistant](https://github.com/vizahat36/ReplyAura-AI-Email-Reply-Assistant)
 
 ---
 
-## 🚀 Features
+## 🧠 About ReplyAura
 
-- 🧠 **AI-Powered Replies** – Generates contextual replies to email content.
-- 🎨 **Modern UI** – Built with Material UI and glassmorphic 3D design.
-- 🌗 **Dark/Light Mode Toggle**
-- ⚡ **Framer Motion Animations**
-- 🧩 **Chrome Extension** – Easily generate replies from Gmail or any email page.
-- 🛡️ **Tone Selector** – Choose between professional, friendly, or casual tones.
+**ReplyAura** is a modern, AI-driven email reply assistant designed to automatically generate context-aware responses to emails with customizable tone settings. With a beautifully animated UI and a powerful backend, it streamlines professional communication across platforms.
+
+This project integrates advanced AI capabilities with seamless user experience, packaged both as a web app and a Chrome extension.
+
+---
+
+## ✨ Features
+
+- 🔥 **AI Email Reply Generator** powered by Spring AI (LLM support)
+- 🎨 **Vite + React.js frontend** with Material UI and animated glassmorphism
+- 🌗 **Dark/Light mode toggle** for personalized UI preferences
+- 💬 **Tone customization** – Friendly, Casual, or Professional
+- 🔌 **Chrome Extension** to generate replies directly from your inbox
+- 📦 **Deployed backend** on Render using Docker containerization
+- 📲 **REST API integration** between frontend and backend
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🌐 Frontend
-- **React.js** (Vite)
-- **Material UI**
-- **Framer Motion** for animations
-- **Custom CSS** (glassmorphism + 3D fantasy)
+### 🖥️ Frontend:
+- [React.js](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Material UI](https://mui.com/)
+- [Framer Motion](https://www.framer.com/motion/) for animations
+- [Vercel](https://vercel.com/) for deployment
 
-### 🔧 Backend
-- **Java** (17+)
-- **Spring Boot**
-- **Spring AI** (integrated with a language model for natural language generation)
-- **REST API** for reply generation
-
-### 🧩 Browser Extension
-- **Manifest V3**
-- Injects the AI engine into Gmail or any open mail tab
-- Allows generating replies on selected emails
+### ⚙️ Backend:
+- [Java](https://www.oracle.com/java/)
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring AI](https://docs.spring.io/spring-ai)
+- [Docker](https://www.docker.com/) containerized
+- [Render](https://render.com/) for backend hosting
 
 ---
 
-## 📦 Installation
+## 🧩 Chrome Extension
 
-### 1. Clone the repo
+A lightweight browser extension is also included that connects to the deployed backend to allow one-click email reply generation directly within Gmail.
 
-```bash
-git clone https://github.com/your-username/replyaura.git
-cd replyaura
-2. Frontend Setup (React)
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm run dev
-3. Backend Setup (Spring Boot)
-bash
-Copy
-Edit
-cd backend
-./mvnw spring-boot:run
-Make sure your backend is running on http://localhost:8080.
+---
 
-🧪 Example API Call
-http
-Copy
-Edit
-POST /api/email/generate
-Content-Type: application/json
+## 📸 Screenshots
 
-{
-  "emailContent": "Hi, I need a meeting scheduled for Monday.",
-  "tone": "professional"
-}
-🧩 Chrome Extension
-Go to chrome://extensions/
+| AI Generator UI | Dark Mode | Reply Output |
+|-----------------|-----------|--------------|
+| ![1](https://i.imgur.com/y5ObdVG.png) | ![2](https://i.imgur.com/t71kq0k.png) | ![3](https://i.imgur.com/cLPr3OX.png) |
 
-Enable "Developer mode"
+---
 
-Click Load Unpacked
+## 📎 License
 
-Select the chrome-extension/ folder inside the project
+This project is open-source and available under the [MIT License](LICENSE).
 
-Now visit Gmail or any mail tab — the extension will appear and allow one-click reply generation via ReplyAura!
+---
 
-📷 Screenshots
-[Insert screenshots of the UI, dark mode, and extension here]
-
-🧠 Powered By
-OpenAI / Gemini / Spring AI backend integration
-
-Designed with ❤️ for productivity and simplicity
-
-📃 License
-MIT License © 2025 [Your Name]
-
-css
-Copy
-Edit
+> Made with ❤️ by [Mohammed Vijahath](https://github.com/vizahat36)
